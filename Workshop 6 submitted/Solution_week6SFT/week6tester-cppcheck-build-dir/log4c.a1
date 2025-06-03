@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3708453315">
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;log&apos; shadows outer variable" verbose="Local variable &apos;log&apos; shadows outer variable" cwe="398" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\log4c.c" line="40" column="21" info="Shadow variable"/>
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\log4c.h" line="32" column="20" info="Shadowed declaration"/>
+            <symbol>log</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.c:19:6" call-funcname="severityToString" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.c" line="90" col="20" call-argexpr="sev" call-argvaluetype="7" call-argvalue="11"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.c" line="63" col="2" my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:56:6" my-argnr="1"/>
+<function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.c" line="68" col="2" my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:63:6" my-argnr="1"/>
+<function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.c" line="73" col="2" my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:70:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="severityToString" lineNumber="19"/>
+    <functiondecl functionName="l4cOpen" lineNumber="38"/>
+    <functiondecl functionName="l4cClose" lineNumber="51"/>
+    <functiondecl functionName="l4cError" lineNumber="61"/>
+    <functiondecl functionName="l4cWarning" lineNumber="66"/>
+    <functiondecl functionName="l4cInfo" lineNumber="71"/>
+    <functiondecl functionName="l4cPrintf" lineNumber="76"/>
+    <functiondecl functionName="l4cCheck" lineNumber="107"/>
+    <functiondecl functionName="l4cDisable" lineNumber="154"/>
+    <functiondecl functionName="l4cEnable" lineNumber="159"/>
+    <functiondecl functionName="l4cIsEnabled" lineNumber="164"/>
+    <functiondecl functionName="l4cFilter" lineNumber="171"/>
+    <functiondecl functionName="l4cGetFilter" lineNumber="186"/>
+    <functiondecl functionName="l4cDisableAutoFlush" lineNumber="193"/>
+    <functiondecl functionName="l4cEnableAutoFlush" lineNumber="198"/>
+    <functiondecl functionName="l4cIsAutoFlush" lineNumber="203"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="argp"/>
+    <functioncall functionName="autoFlush"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="case"/>
+    <functioncall functionName="ctime"/>
+    <functioncall functionName="currTime"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="enabled"/>
+    <functioncall functionName="errMsg"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="fileStatus"/>
+    <functioncall functionName="filter"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="l4cPrintf"/>
+    <functioncall functionName="log"/>
+    <functioncall functionName="logFile"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="now"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="sev"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="severityToString"/>
+    <functioncall functionName="strcat"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="va_end"/>
+    <functioncall functionName="va_start"/>
+    <functioncall functionName="vfprintf"/>
+  </FileInfo>
+</analyzerinfo>

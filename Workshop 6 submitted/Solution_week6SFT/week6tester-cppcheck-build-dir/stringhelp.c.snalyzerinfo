@@ -1,0 +1,11 @@
+nextWhite call:[return]
+isNumber call:[isdigit]
+indexString call:[isNumber,isspace,l4cClose,l4cOpen,l4cPrintf,l4cWarning,strcpy] noreturn:[l4cPrintf]
+getNumberLines
+getNumberWords
+getNumberNumbers
+getWord call:[nextWhite]
+getNumber call:[nextWhite]
+getLine
+printUntil call:[printf] noreturn:[printf]
+printUntilSpace call:[isspace,printf] noreturn:[printf]

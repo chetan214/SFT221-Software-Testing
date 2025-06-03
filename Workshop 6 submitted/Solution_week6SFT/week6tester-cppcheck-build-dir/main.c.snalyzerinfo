@@ -1,0 +1,1 @@
+main call:[assert,indexString,l4cClose,l4cOpen,l4cPrintf,l4cWarning,printUntil,printUntilSpace,printf] noreturn:[printf]

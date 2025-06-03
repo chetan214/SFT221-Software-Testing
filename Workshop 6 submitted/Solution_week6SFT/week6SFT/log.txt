@@ -1,0 +1,23 @@
+[INFO Fri Jun 14 18:52:07 2024]: Indexing the string is now started...
+[WARN Fri Jun 14 18:52:07 2024]: The string has to be in perfect condition.
+[INFO Fri Jun 14 18:52:07 2024]: All integer counters are set to zero in StringIndex result
+[INFO Fri Jun 14 18:52:07 2024]: Copied string to result.str: This is a string with embedded newline character and 12345 numbers inside it as well 67890
+[INFO Fri Jun 14 18:52:07 2024]: str[0] condition is checked and passed
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 0
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 5
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 8
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 10
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 17
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 22
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 31
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 39
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 49
+[INFO Fri Jun 14 18:52:07 2024]: Number found at position: 53
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 59
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 67
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 74
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 77
+[INFO Fri Jun 14 18:52:07 2024]:  Word found at position: 80
+[INFO Fri Jun 14 18:52:07 2024]: Number found at position: 85
+[INFO Fri Jun 14 18:52:07 2024]: Result:- Number of lines: 1, words: 14, numbers: 2
+[INFO Fri Jun 14 18:52:07 2024]: Indexing Completed...

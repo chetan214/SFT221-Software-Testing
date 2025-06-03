@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3594283931">
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;log&apos; shadows outer variable" verbose="Local variable &apos;log&apos; shadows outer variable" cwe="398" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\main.c" line="11" column="21" info="Shadow variable"/>
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\log4c.h" line="32" column="20" info="Shadowed declaration"/>
+            <symbol>log</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:43:20" call-funcname="l4cOpen" call-argnr="2" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c" line="11" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c" line="12" col="11" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:63:6" call-funcname="l4cWarning" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c" line="19" col="12" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:34:20" call-funcname="indexString" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c" line="21" col="40" call-argexpr="testStr" call-argvaluetype="7" call-argvalue="91"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c" line="29" col="12" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c" line="34" col="11" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c" line="42" col="11" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c" line="48" col="11" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:49:6" call-funcname="l4cClose" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c" line="49" col="10" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="9"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="indexString"/>
+    <functioncall functionName="l4cClose"/>
+    <functioncall functionName="l4cOpen"/>
+    <functioncall functionName="l4cPrintf"/>
+    <functioncall functionName="l4cWarning"/>
+    <functioncall functionName="log"/>
+    <functioncall functionName="numLines"/>
+    <functioncall functionName="numNumbers"/>
+    <functioncall functionName="numWords"/>
+    <functioncall functionName="printUntil"/>
+    <functioncall functionName="printUntilSpace"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="testStr"/>
+  </FileInfo>
+</analyzerinfo>

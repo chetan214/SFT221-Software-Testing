@@ -1,0 +1,16 @@
+severityToString call:[strcpy]
+l4cOpen call:[fopen]
+l4cClose call:[fclose]
+l4cError call:[l4cPrintf] noreturn:[l4cPrintf]
+l4cWarning call:[l4cPrintf] noreturn:[l4cPrintf]
+l4cInfo call:[l4cPrintf] noreturn:[l4cPrintf]
+l4cPrintf call:[ctime,fflush,fprintf,severityToString,strlen,time,va_end,va_start,vfprintf] noreturn:[fflush,va_end]
+l4cCheck call:[case,strcat,strcpy] noreturn:[strcpy]
+l4cDisable
+l4cEnable
+l4cIsEnabled
+l4cFilter
+l4cGetFilter
+l4cDisableAutoFlush
+l4cEnableAutoFlush
+l4cIsAutoFlush

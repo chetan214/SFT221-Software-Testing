@@ -1,0 +1,3 @@
+log4c.a1:Debug|Win32:D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.c
+main.a1:Debug|Win32:D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/main.c
+stringhelp.a1:Debug|Win32:D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c

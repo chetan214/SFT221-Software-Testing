@@ -1,0 +1,6 @@
+[INFO Fri Jun 14 18:52:07 2024]: Main function of application is started...
+[WARN Fri Jun 14 18:52:07 2024]: The string has to be in perfect condition.
+[INFO Fri Jun 14 18:52:07 2024]: No of LINES is: 1
+[INFO Fri Jun 14 18:52:07 2024]: No of WORDS are: 14
+[INFO Fri Jun 14 18:52:07 2024]: No of NUMBERS are: 2
+[INFO Fri Jun 14 18:52:07 2024]: End of the application...

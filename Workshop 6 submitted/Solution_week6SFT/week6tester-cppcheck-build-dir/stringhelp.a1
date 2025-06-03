@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3803765771">
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;str[i]==&apos;\0&apos;&apos; is always false" verbose="Condition &apos;str[i]==&apos;\0&apos;&apos; is always false" cwe="570" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\stringhelp.c" line="56" column="15" info="Condition &apos;str[i]==&apos;\0&apos;&apos; is always false"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;i&apos; can be reduced." verbose="The scope of the variable &apos;i&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\stringhelp.c" line="100" column="6"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sp&apos; can be reduced." verbose="The scope of the variable &apos;sp&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\stringhelp.c" line="100" column="9"/>
+            <symbol>sp</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;start&apos; can be reduced." verbose="The scope of the variable &apos;start&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\stringhelp.c" line="100" column="13"/>
+            <symbol>start</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;i&apos; can be reduced." verbose="The scope of the variable &apos;i&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\stringhelp.c" line="118" column="6"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sp&apos; can be reduced." verbose="The scope of the variable &apos;sp&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\stringhelp.c" line="118" column="9"/>
+            <symbol>sp</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;start&apos; can be reduced." verbose="The scope of the variable &apos;start&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\stringhelp.c" line="118" column="13"/>
+            <symbol>start</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;log&apos; shadows outer variable" verbose="Local variable &apos;log&apos; shadows outer variable" cwe="398" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\stringhelp.c" line="34" column="21" info="Shadow variable"/>
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\log4c.h" line="32" column="20" info="Shadowed declaration"/>
+            <symbol>log</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;buf&apos; is assigned a value that is never used." verbose="Variable &apos;buf&apos; is assigned a value that is never used." cwe="563" file0="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c">
+            <location file="D:\Seneca\Second Semester\Assignments\Software Testing(SFT)\Workshop 6\Solution_week6SFT\week6SFT\stringhelp.c" line="39" column="30"/>
+            <symbol>buf</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:43:20" call-funcname="l4cOpen" call-argnr="2" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="34" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="35" col="11" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:63:6" call-funcname="l4cWarning" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="36" col="12" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="38" col="11" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="42" col="11" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="47" col="12" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="66" col="13" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="71" col="13" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="77" col="11" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:80:6" call-funcname="l4cPrintf" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="78" col="11" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/log4c.h:49:6" call-funcname="l4cClose" call-argnr="1" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="79" col="10" call-argexpr="&amp;log" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:34:20" my-argnr="1" my-argname="str" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="41" col="21" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:40:5" my-argnr="1" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="85" col="9" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:46:5" my-argnr="1" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="89" col="9" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:52:5" my-argnr="1" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="94" col="10" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:60:6" my-argnr="2" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="102" col="16" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:68:6" my-argnr="2" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="120" col="18" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:75:7" my-argnr="1" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="134" col="16" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:82:6" my-argnr="1" my-argname="s" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="143" col="18" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:88:6" my-argnr="1" my-argname="s" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="149" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:34:20" my-argnr="1" my-argname="str" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="41" col="21" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:40:5" my-argnr="1" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="85" col="9" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:46:5" my-argnr="1" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="89" col="9" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:52:5" my-argnr="1" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="94" col="10" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:60:6" my-argnr="2" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="102" col="16" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:68:6" my-argnr="2" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="120" col="18" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:75:7" my-argnr="1" my-argname="idx" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="134" col="16" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:82:6" my-argnr="1" my-argname="s" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="143" col="18" value="0"/>
+    <unsafe-usage my-id="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.h:88:6" my-argnr="1" my-argname="s" file="D:/Seneca/Second Semester/Assignments/Software Testing(SFT)/Workshop 6/Solution_week6SFT/week6SFT/stringhelp.c" line="149" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="nextWhite" lineNumber="9"/>
+    <functiondecl functionName="isNumber" lineNumber="22"/>
+    <functiondecl functionName="indexString" lineNumber="31"/>
+    <functiondecl functionName="getNumberLines" lineNumber="83"/>
+    <functiondecl functionName="getNumberWords" lineNumber="87"/>
+    <functiondecl functionName="getNumberNumbers" lineNumber="91"/>
+    <functiondecl functionName="getWord" lineNumber="97"/>
+    <functiondecl functionName="getNumber" lineNumber="116"/>
+    <functiondecl functionName="getLine" lineNumber="131"/>
+    <functiondecl functionName="printUntil" lineNumber="140"/>
+    <functiondecl functionName="printUntilSpace" lineNumber="146"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="isNumber"/>
+    <functioncall functionName="isdigit"/>
+    <functioncall functionName="isspace"/>
+    <functioncall functionName="l4cClose"/>
+    <functioncall functionName="l4cOpen"/>
+    <functioncall functionName="l4cPrintf"/>
+    <functioncall functionName="l4cWarning"/>
+    <functioncall functionName="lineNum"/>
+    <functioncall functionName="log"/>
+    <functioncall functionName="nextWhite"/>
+    <functioncall functionName="numLines"/>
+    <functioncall functionName="numNumbers"/>
+    <functioncall functionName="numWords"/>
+    <functioncall functionName="numberNum"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sp"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wordNum"/>
+  </FileInfo>
+</analyzerinfo>
